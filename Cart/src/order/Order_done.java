@@ -52,7 +52,9 @@ public class Order_done extends HttpServlet
 				   "><input type='submit' value='Logout'>"+
 				"</form>");
 	}
-	public int updateQuantity(int id,int quantity,String email)
+	
+	//synchronized keyword handles the race conition. When 2 or more requests are made it handles one at a time.
+	public synchronized int updateQuantity(int id,int quantity,String email)
 	{
 		try
 		{
