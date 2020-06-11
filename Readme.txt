@@ -15,7 +15,7 @@ It consists of mainly 4 files:
 Dtabase Tables:
 
 1)Account table : It stores the set of users who can login and is created before hand.
-2)Inventory table : It stores the information of the intventory items.
-3)Orders : It stores the information of the orders.
+2)Inventory table : It stores the information of the intventory items and is created before hand.
+3)Orders : It stores the information of the orders and entries are stored dynamically.
 
-Screenshots are int the Screenshots folder.
+Screenshots are in the Screenshots folder.
